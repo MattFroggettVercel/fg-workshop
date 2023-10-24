@@ -7,7 +7,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <Page>
       <Head>
-        <title>Next.js app directory workshop</title>
+        <title>Next.js app directory workshop Changed</title>
       </Head>
       <Component {...pageProps} />
     </Page>
