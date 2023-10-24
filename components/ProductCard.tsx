@@ -12,6 +12,7 @@ const ProductCard: React.FC<Props> = ({ product }) => {
     <Stack gap={6}>
       <Image src={product.image} width={400} height={400} alt="" />
       <Text color="light" size={20} weight="bold">
+        Hello{' '}
         {product.title}
       </Text>
       <Text size={14}>{product.description}</Text>
